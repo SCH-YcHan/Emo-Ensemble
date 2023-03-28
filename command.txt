@@ -1,3 +1,3 @@
 activate ETRI
 cd Desktop/ETRI/TIM-Net_SER/Code
-python main.py --mode train --data KEMD --split_fold 2 --random_seed 42 --epoch 100 --gpu 0
+python main.py --mode train --data KEMD --random_seed 42 --epoch 100 --gpu 0
