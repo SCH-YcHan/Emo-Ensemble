@@ -1,8 +1,8 @@
-# GPU 환경 설정
+# GPU setting
 CUDA 11.7
 cuDNN 8.4.0
 
-# Anaconda
+# Anaconda env setting
 conda create -n ETRI python=3.9
 activate ETRI
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
