@@ -10,10 +10,34 @@
 <img src="https://user-images.githubusercontent.com/113504815/232484969-550c167a-f9a6-438e-b08f-ff75a84d7efa.png" width="600" height="150">
 
 ## Environment
+### Local
+```
+OS: Windows 10 Pro
+CPU: Intel(R) Core(TM) i9-10900X 
+GPU: NVIDIA GeForce RTX 2080 Ti
+CUDA version: 11.7
+CuDNN version: 8.4.0
+Workstation: Anaconda3
+```
+```
+# Anaconda env setting
+conda create -n ETRI python=3.9
+activate ETRI
+conda install pytorch torchvision torchaudio-cuda=11.7 -c pytorch -c nvidia
+conda install jupyter notebook
+```
+```
+# Requires packages install
+pip install -r requirements.txt
+```
+### Colab
+```
+Colab version: Colab Pro
+```
+## Directory
+### Local
 
-## Directory (Local)
-
-## Directory (Colab)
+### Colab
 
 ## Pretrained Model info
 
