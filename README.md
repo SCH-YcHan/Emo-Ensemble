@@ -53,6 +53,7 @@ ETRI (폴더 생성 필요)
 │   │   ├── 6. Emotion Recognition with wav2vec2 (Colab).ipynb ───────────┘ 옮겨주어야 함
 │   │   ├── 7. Emotion Recognition with wav2vec2 (Local).ipynb
 │   │   ├── 8. Ensemble prediction (Local).ipynb
+│   │   ├── Code description.txt (코드 설명)
 │   │   └── try (Emo-Ensemble 모델 구현에 사용되지 않는 코드들)
 │   ├── Readme.md
 │   └── requirements.txt
@@ -86,20 +87,17 @@ drive
             └── 6. Emotion Recognition with wav2vec2 (Colab).ipynb
 ```
 
-## 4. Code description
-
-
-## 5. Pretrained Model info
+## 4. Pretrained Model info
 [wav2vec2] [wav2vec2-large-xlsr-korean](https://huggingface.co/kresnik/wav2vec2-large-xlsr-korean)  
 [KoBERT] [SKTBrain](https://github.com/SKTBrain/KoBERT)
 
-## 6. Benchmark Model info
+## 5. Benchmark Model info
 [MMM: Multi-modal Emotion Recognition in conversation with MLP Mixer](https://github.com/ISDS-Human-Understanding/HumanUnderstandingOpen)
 
-## 7. Model Architecture
+## 6. Model Architecture
 <img src="https://user-images.githubusercontent.com/113504815/232712160-546624f4-239d-415c-8b8c-fb07f1c490a3.png">
 
-## 8. Experiment results
+## 7. Experiment results
 
 ### Fig 1. Class distribution (KEMDy20)
 <img src="https://user-images.githubusercontent.com/113504815/232707378-072b6125-712c-4811-926c-8beaed141761.png">
