@@ -42,7 +42,7 @@ Colab version: Colab Pro
 ## 3. Directory
 ### Local
 ```
-ETRI (폴더를 새로 생성하여 폴더 내부에서 git clone을 수행)
+ETRI (폴더 생성 필요)
 ├── Emo-Ensemble (git clone)
 │   ├── code
 │   │   ├── 1. Annotation preprocessing & Data split (Local).ipynb
@@ -54,8 +54,6 @@ ETRI (폴더를 새로 생성하여 폴더 내부에서 git clone을 수행)
 │   │   ├── 7. Emotion Recognition with wav2vec2 (Local).ipynb
 │   │   ├── 8. Ensemble prediction (Local).ipynb
 │   │   └── try (Emo-Ensemble 모델 구현에 사용되지 않는 코드들)
-│   ├── Class_distribution_add.png (KEMDy20 + AI Hub class distribution)
-│   ├── Class_distribution_origin.png (KEMDy20 class distribution)
 │   ├── Readme.md
 │   └── requirements.txt
 ├── KEMDy20_v1_1 (KEMDy20 Dataset)
@@ -80,16 +78,12 @@ ETRI (폴더를 새로 생성하여 폴더 내부에서 git clone을 수행)
 ```
 ### Colab
 ```
-├── ETRI
-    │   ├── file11.ext
-    │   └── file12.ext
-    ├── dir2
-    │   ├── file21.ext
-    │   ├── file22.ext
-    │   └── file23.ext
-    ├── dir3
-    ├── file_in_root.ext
-    └── README.md
+drive
+└── MyDrive
+    └── KEMD (폴더 생성 필요)
+        └── code
+            ├── 5. Emotion Recognition with KoBERT (Colab).ipynb
+            └── 6. Emotion Recognition with wav2vec2 (Colab).ipynb
 ```
 
 ## Pretrained Model info
@@ -112,7 +106,7 @@ ETRI (폴더를 새로 생성하여 폴더 내부에서 git clone을 수행)
 ## 7. Experiment results
 
 ### Fig 1. Class distribution (KEMDy20)
-<img src="Class_distribution_origin.png">
+<img src="https://user-images.githubusercontent.com/113504815/232707378-072b6125-712c-4811-926c-8beaed141761.png">
 
 ### Fig 2. Class distribution (KEMDy20 + AI Hub)
-<img src="Class_distribution_add.png">
+<img src="https://user-images.githubusercontent.com/113504815/232707554-e557c7f5-a925-49e7-bf84-c66caadc4cc6.png">
