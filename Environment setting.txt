@@ -1,9 +1,0 @@
-# GPU setting
-CUDA 11.7
-cuDNN 8.4.0
-
-# Anaconda env setting
-conda create -n ETRI python=3.9
-activate ETRI
-conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
-pip install jupyter notebook
