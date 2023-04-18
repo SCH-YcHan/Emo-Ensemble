@@ -104,3 +104,15 @@ drive
 
 ### Fig 2. Class distribution (KEMDy20 + AI Hub)
 <img src="https://user-images.githubusercontent.com/113504815/232707554-e557c7f5-a925-49e7-bf84-c66caadc4cc6.png">
+
+### Table 1. Performance comparison by method
+|Method|Accuracy|Weighted Precision|Weighted F1 Score|
+|:--------:|:---------:|:---------:|:---------:|
+|MMM|0.7888|0.7845|0.7841|
+|wav2vec2 (Forward)|0.8650|0.8650|0.8646|
+|wav2vec2 (Reverse)|0.8096|0.8075|0.8782|
+|KoBERT (dr=0.3)|0.8786|0.8825|0.8782|
+|KoBERT (dr=0.5)|0.8924|0.8937|0.8918|
+|KoBERT (dr=0.7)|0.8820|0.8852|0.8813|
+|Emo-Ensemble|0.9045|0.9084|0.9037|
+
