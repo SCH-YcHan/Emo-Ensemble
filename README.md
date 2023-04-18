@@ -86,24 +86,23 @@ drive
             └── 6. Emotion Recognition with wav2vec2 (Colab).ipynb
 ```
 
-## Pretrained Model info
+## 4. Pretrained Model info
 
-### wav2vec2
+[wav2vec2] [wav2vec2-large-xlsr-korean](https://huggingface.co/kresnik/wav2vec2-large-xlsr-korean)  
+[KoBERT] [SKTBrain](https://github.com/SKTBrain/KoBERT)
 
-### KoBERT
-
-## 4. Benchmark Model info
+## 5. Benchmark Model info
 [MMM: Multi-modal Emotion Recognition in conversation with MLP Mixer](https://github.com/ISDS-Human-Understanding/HumanUnderstandingOpen)
 
-## 5. Emo-Ensemble hyper-parameters
+## 6. Emo-Ensemble hyper-parameters
 
 ### wav2vec2
 
 ### KoBERT
 
-## 6. Model Architecture
+## 7. Model Architecture
 
-## 7. Experiment results
+## 8. Experiment results
 
 ### Fig 1. Class distribution (KEMDy20)
 <img src="https://user-images.githubusercontent.com/113504815/232707378-072b6125-712c-4811-926c-8beaed141761.png">
