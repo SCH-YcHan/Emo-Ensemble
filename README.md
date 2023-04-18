@@ -101,6 +101,7 @@ drive
 ### KoBERT
 
 ## 7. Model Architecture
+<img src="https://user-images.githubusercontent.com/113504815/232712160-546624f4-239d-415c-8b8c-fb07f1c490a3.png">
 
 ## 8. Experiment results
 
