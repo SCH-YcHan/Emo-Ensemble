@@ -53,6 +53,7 @@ ETRI (폴더 생성 필요)
 │   │   ├── 6. Emotion Recognition with wav2vec2 (Colab).ipynb ───────────┘ 옮겨주어야 함
 │   │   ├── 7. Emotion Recognition with wav2vec2 (Local).ipynb
 │   │   ├── 8. Ensemble prediction (Local).ipynb
+│   │   ├── Code description.txt (코드 설명)
 │   │   └── try (Emo-Ensemble 모델 구현에 사용되지 않는 코드들)
 │   ├── Readme.md
 │   └── requirements.txt
@@ -87,7 +88,6 @@ drive
 ```
 
 ## 4. Pretrained Model info
-
 [wav2vec2] [wav2vec2-large-xlsr-korean](https://huggingface.co/kresnik/wav2vec2-large-xlsr-korean)  
 [KoBERT] [SKTBrain](https://github.com/SKTBrain/KoBERT)
 
