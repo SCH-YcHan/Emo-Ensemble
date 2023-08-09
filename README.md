@@ -1,6 +1,5 @@
 # Emo-Ensemble
 [Competition] [제 2회 ETRI 휴먼이해 인공지능 논문경진대회](https://aifactory.space/competition/qna/2234/1019)  
-[Paper] Emo-Ensemble: An Ensemble-based Multimodal Emotion Recognition using wav2vec2 and KoBERT
 
 ## 1. Original Data Source
 [KEMDy20] [한국어 멀티모달 감정데이터셋 2020](https://nanum.etri.re.kr/share/kjnoh/KEMDy20?lang=ko_KR)  
